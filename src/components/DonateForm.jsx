@@ -31,7 +31,7 @@ export default function DonateForm({ onSuccess }) {
 
       await tx.wait();
 
-      await fetch("http://localhost:5000/api/donate", {
+      await fetch("/api/donate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
