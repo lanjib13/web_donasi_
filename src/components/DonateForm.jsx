@@ -31,7 +31,7 @@ export default function DonateForm({ onSuccess }) {
 
       await tx.wait();
 
-      await fetch("/api/donate", {
+      await fetch("https://cobaklagi-production.up.railway.app/api/donate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
