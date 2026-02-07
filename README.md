@@ -185,11 +185,3 @@ npm run dev
 
 
 
-##
-* Nama: **(MOH NURUL LANJIB)**
-* NIM: **(241111042)**
-* Mata Kuliah: **pemograman web**
-
-
-
-
